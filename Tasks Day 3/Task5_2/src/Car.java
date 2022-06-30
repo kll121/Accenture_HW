@@ -1,6 +1,9 @@
 public class Car extends Vehicle {
-    Car(){
-
+//    Car(String brand, String model, String color, int yearOfMaking){
+//        super(brand,model,color,yearOfMaking);
+//    }
+    Car(Vehicle vehicle){
+        super();
     }
     private String transmission;
 

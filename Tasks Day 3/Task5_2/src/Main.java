@@ -1,11 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        Vehicle car = new Vehicle("VW", "Passat", "gold", 2015);
+        Vehicle vec = new Vehicle("VW", "Passat", "gold", 2015);
+        Vehicle car = new Car(vec);
         car.direction("right");
         car.chaneSpeed(123.4);
         car.go();
         car.stop();
         car.changeGear(1);
+        car.direction("right");
     }
 }
 /*5) Vehicle

@@ -1,6 +1,6 @@
-public class ElectricCar extends Car {
+public class ElectricCar {
         ElectricCar(){
-
+                super();
         }
 }
 /*5) Vehicle
